@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
     <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/css/mdb.min.css" rel="stylesheet">
     <!-- my file css -->
@@ -80,23 +80,23 @@
         <div class="col-sm-10 col-md-2 mx-auto">
             <!-- add input -->
             <div class="md-form form-sm">
-                <input type="number" id="inputSMEx" class="form-control form-control-sm  new-node-value" value = "">
-                <label for="inputSMEx">Add new node</label>
+                <input type="number" id="new-node-input" class="form-control form-control-sm  new-node-value" value = "">
+                <label for="new-node-input">Add new node</label>
                 <button id="new-node" class="btn btn-primary form-btn">Add</button>
             </div>
 
             <!-- Delete input -->
             <div class="md-form form-sm">
-                <input type="number" id="inputSMEx" class="form-control form-control-sm  delete-node-value" value = "">
-                <label for="inputSMEx">Delete node</label>
+                <input type="number" id="delete-node-input" class="form-control form-control-sm  delete-node-value" value = "">
+                <label for="delete-node-input">Delete node</label>
                 <button id="delete-node" class="btn btn-primary form-btn">Delete</button>
             </div>
 
 
             <!-- Search input -->
             <div class="md-form form-sm">
-                <input type="number" id="inputSMEx" class="form-control form-control-sm  search-node-value" value = "">
-                <label for="inputSMEx">Search node</label>
+                <input type="number" id="search-node-input" class="form-control form-control-sm  search-node-value" value = "">
+                <label for="search-node-input">Search node</label>
                 <button id="search-node" class="btn btn-primary form-btn">Search</button>
             </div>
             <p id="selection"></p>
@@ -111,17 +111,17 @@
 <!-- Materialize -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
 <!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.15.0/js/mdb.min.js"></script>
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.20.0/js/mdb.min.js"></script>-->
 <!-- alerts -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.10.0/dist/sweetalert2.all.min.js"></script>
 <!-- for tree -->
 <script src="https://visjs.github.io/vis-network/standalone/umd/vis-network.min.js"></script>
 <!-- <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/viz.js" integrity="sha512-vnRdmX8ZxbU+IhA2gLhZqXkX1neJISG10xy0iP0WauuClu3AIMknxyDjYHEpEhi8fTZPyOCWgqUCnEafDB/jVQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/viz.js"></script>
 <!-- my script -->
 <script src="js/main.js" ></script>
 
